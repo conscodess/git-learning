@@ -1,0 +1,108 @@
+
+
+.nav-bar {
+  margin-top: 50px;
+  background-color: ;
+  border-radius: 20px;
+  border: 5px solid #FEFFC3;
+  opacity: 0.6;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #1c0307;
+}
+
+.nav-bar a {
+  float: left;
+  color: #FEFFC3;
+  text-align: center;
+  padding: 1% 7%;
+  text-decoration: none;
+  font-size: 200%;
+  background-color: #1c0307;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-bar a.active {
+  color: white;
+  background-color: #820d1e;
+}
+
+html {
+  zoom: 67%;
+}
+
+h1 {
+  color: #FEFFC3;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 600%;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+body {
+  background-color:#35B5AC ;
+  
+}
+
+.intro {
+color: #FEFFC3;
+  font-size: 250%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 0;
+
+}
+.title-img {
+  height: 170px;
+  width: 170px;
+  margin-top: 100px;
+}
+
+h2 {
+color: #FEFFC3;
+  font-size: 400%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content:space-around;
+  margin-left:80px;
+}
+
+.fact-box{
+display: flex;
+  justify-content:center;
+  background-color: #C09591;
+  border-radius: 15px;
+  border: 5px solid #FEFFC3;
+  padding: 3% 8%;
+  width: 30%;
+  height: fit-content;
+  color: #FEFFC3;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.h3 {
+color: #FEFFC3;
+  font-size: 300%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+}
+
+.facts {
+display:flex;
+align-items: center;
+flex-direction:column;
+
+}
